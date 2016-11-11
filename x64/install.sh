@@ -11,6 +11,7 @@ printf "***************\n\n"
 
 printf "Copying shared libraries... "
 cp Bin/libXnVNite*$LIBEXT /usr/lib
+ln -s /usr/lib/libXnVNite_1_5_2.so /usr/lib/libXnVNite.so
 cp Bin/libXnVCNITE*$LIBEXT /usr/lib
 cp Bin/libXnVNITE.jni*$LIBEXT /usr/lib
 printf "OK\n"
